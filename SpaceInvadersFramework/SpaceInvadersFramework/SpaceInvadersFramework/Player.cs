@@ -11,22 +11,22 @@ namespace SpaceInvadersFramework
     {
         public Player() : base("ship", 0, "", 0)
         {
-
+            position = new Vector2(GameEnvironment.Screen.X/2, GameEnvironment.Screen.Y-Height);
         }
 
         public override void HandleInput(InputHelper inputHelper)
         {
-            if (inputHelper.KeyPressed(Keys.Left))
+            if (inputHelper.IsKeyDown(Keys.Left))
             {
-                velocity.X -= 300;   
+                velocity.X -= 30;   
             }
 
-            if (inputHelper.KeyPressed(Keys.Right))
+            if (inputHelper.IsKeyDown(Keys.Right))
             {
-                velocity.X += 300;
+                velocity.X += 30;
             }
 
-            if (!inputHelper.KeyPressed(Keys.Left) && !inputHelper.KeyPressed(Keys.Right))
+            if (!inputHelper.IsKeyDown(Keys.Left) && !inputHelper.IsKeyDown(Keys.Right))
             {
                 velocity.X = 0;
             }

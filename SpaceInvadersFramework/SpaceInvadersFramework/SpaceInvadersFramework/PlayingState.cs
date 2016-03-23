@@ -8,7 +8,7 @@ namespace SpaceInvadersFramework
     class PlayingState : GameObjectList
     {
         public PlayingState() {
-
+            Add(new Player());
         }
     }
 }
