@@ -1,0 +1,6 @@
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\bin\x86\Debug\GameManagement.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\bin\x86\Debug\GameManagement.pdb
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\obj\x86\Debug\GameManagement.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\obj\x86\Debug\GameManagement.dll
+C:\Users\Danny\Documents\Visual Studio 2015\Projects\SpaceInvaders\GameManagement\obj\x86\Debug\GameManagement.pdb

@@ -14,7 +14,7 @@ public class SpriteGameObject : GameObject
             sprite = new SpriteSheet(assetname, sheetIndex);
         else
             sprite = null;
-    }    
+    }
 
     public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
     {

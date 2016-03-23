@@ -8,6 +8,8 @@ namespace SpaceInvadersFramework
     /// </summary>
     public class SpaceInvaders : GameEnvironment
     {
+        PlayingState playingState;
+
         public SpaceInvaders()
         {
             Content.RootDirectory = "Content";
@@ -22,7 +24,8 @@ namespace SpaceInvadersFramework
             this.SetFullScreen(false);
 
             // TODO: add gamestate to GameStateManager here
-            gameStateManager.AddGameState("playingState", new PlayingState());
+            playingState = new PlayingState();
+            gameStateManager.AddGameState("playingState", playingState);
             gameStateManager.SwitchTo("playingState");
 
         }
